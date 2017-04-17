@@ -1,0 +1,4 @@
+SELECT u.nombre,l.descripcion
+FROM usuario AS u, localidad AS l
+WHERE u.id_loc = l.id
+AND u.legajo > 100
